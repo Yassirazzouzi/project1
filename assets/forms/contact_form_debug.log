@@ -1,0 +1,18 @@
+[2025-03-04 14:29:33] Received POST Data: Array
+(
+    [name] => yassir
+    [email] => yassirazzouzi39@gmail.com
+    [subject] => e
+    [message] => nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+)
+
+[2025-03-04 14:29:34] Email sent successfully
+[2025-03-04 14:29:39] Received POST Data: Array
+(
+    [name] => yassir
+    [email] => yassirazzouzi39@gmail.com
+    [subject] => e
+    [message] => nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+)
+
+[2025-03-04 14:29:41] Email sent successfully

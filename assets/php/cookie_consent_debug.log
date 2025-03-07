@@ -1,0 +1,30 @@
+[2025-03-04 12:16:26] Données reçues brutes : {"accepted":true,"consentData":{"essential":true}}
+[2025-03-04 12:16:26] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"1"}
+[2025-03-04 12:16:44] Données reçues brutes : {"accepted":true,"consentData":{"essential":true}}
+[2025-03-04 12:16:44] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"2"}
+[2025-03-04 12:18:11] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-04T12:18:11.676Z"}}
+[2025-03-04 12:18:11] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"3"}
+[2025-03-04 14:16:41] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-04T14:16:41.802Z"}}
+[2025-03-04 14:16:41] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"4"}
+[2025-03-05 12:45:59] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T12:45:59.792Z"}}
+[2025-03-05 12:45:59] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"5"}
+[2025-03-05 15:04:54] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T15:04:54.591Z"}}
+[2025-03-05 15:04:54] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"6"}
+[2025-03-05 15:07:58] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T15:07:57.554Z"}}
+[2025-03-05 15:07:58] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"7"}
+[2025-03-05 15:08:18] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T15:08:18.250Z"}}
+[2025-03-05 15:08:18] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"8"}
+[2025-03-05 15:10:27] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T15:10:27.008Z"}}
+[2025-03-05 15:10:27] Réponse envoyée : {"success":true,"message":"Consentement enregistr\u00e9 avec succ\u00e8s","insertedId":"9"}
+[2025-03-05 22:05:01] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T22:05:01.086Z"}}
+[2025-03-05 22:05:05] Erreur PDO : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-03-05 22:05:05] Erreur générale : Erreur de base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-03-05 22:05:05] Réponse d'erreur : {"success":false,"message":"Erreur lors de l'enregistrement","details":"Erreur de base de donn\u00e9es : SQLSTATE[HY000] [2002] Aucune connexion n\u2019a pu \u00eatre \u00e9tablie car l\u2019ordinateur cible l\u2019a express\u00e9ment refus\u00e9e"}
+[2025-03-05 22:05:05] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T22:05:02.054Z"}}
+[2025-03-05 22:05:09] Erreur PDO : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-03-05 22:05:09] Erreur générale : Erreur de base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-03-05 22:05:09] Réponse d'erreur : {"success":false,"message":"Erreur lors de l'enregistrement","details":"Erreur de base de donn\u00e9es : SQLSTATE[HY000] [2002] Aucune connexion n\u2019a pu \u00eatre \u00e9tablie car l\u2019ordinateur cible l\u2019a express\u00e9ment refus\u00e9e"}
+[2025-03-05 22:05:09] Données reçues brutes : {"accepted":true,"consentData":{"essential":true,"analytics":true,"marketing":true,"timestamp":"2025-03-05T22:05:04.229Z"}}
+[2025-03-05 22:05:13] Erreur PDO : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-03-05 22:05:13] Erreur générale : Erreur de base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-03-05 22:05:13] Réponse d'erreur : {"success":false,"message":"Erreur lors de l'enregistrement","details":"Erreur de base de donn\u00e9es : SQLSTATE[HY000] [2002] Aucune connexion n\u2019a pu \u00eatre \u00e9tablie car l\u2019ordinateur cible l\u2019a express\u00e9ment refus\u00e9e"}
