@@ -28,3 +28,33 @@
 [2025-03-05 22:05:13] Erreur PDO : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
 [2025-03-05 22:05:13] Erreur générale : Erreur de base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
 [2025-03-05 22:05:13] Réponse d'erreur : {"success":false,"message":"Erreur lors de l'enregistrement","details":"Erreur de base de donn\u00e9es : SQLSTATE[HY000] [2002] Aucune connexion n\u2019a pu \u00eatre \u00e9tablie car l\u2019ordinateur cible l\u2019a express\u00e9ment refus\u00e9e"}
+[2025-03-31 15:24:44] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:24:42.022Z&amp;quot;}}
+[2025-03-31 15:24:48] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:24:48] Erreur générale : Erreur de base de données
+[2025-03-31 15:24:48] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-03-31 15:25:08] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:25:06.649Z&amp;quot;}}
+[2025-03-31 15:25:12] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:25:12] Erreur générale : Erreur de base de données
+[2025-03-31 15:25:12] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-03-31 15:25:12] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:25:06.268Z&amp;quot;}}
+[2025-03-31 15:25:16] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:25:16] Erreur générale : Erreur de base de données
+[2025-03-31 15:25:16] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-03-31 15:25:16] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:25:06.422Z&amp;quot;}}
+[2025-03-31 15:25:20] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:25:20] Erreur générale : Erreur de base de données
+[2025-03-31 15:25:20] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-03-31 15:25:20] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:25:06.130Z&amp;quot;}}
+[2025-03-31 15:25:24] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:25:24] Erreur générale : Erreur de base de données
+[2025-03-31 15:25:24] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-03-31 15:25:24] Données reçues brutes : {&amp;quot;accepted&amp;quot;:false,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:false,&amp;quot;marketing&amp;quot;:false,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:25:10.093Z&amp;quot;}}
+[2025-03-31 15:25:28] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:25:28] Erreur générale : Erreur de base de données
+[2025-03-31 15:25:28] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-03-31 15:25:28] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-03-31T15:25:14.059Z&amp;quot;}}
+[2025-03-31 15:25:32] Erreur PDO : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-03-31 15:25:32] Erreur générale : Erreur de base de données
+[2025-03-31 15:25:32] Réponse d&#039;erreur : {&quot;success&quot;:false,&quot;message&quot;:&quot;Erreur lors de l&#039;enregistrement du consentement&quot;,&quot;details&quot;:&quot;Erreur de base de donn\u00e9es&quot;}
+[2025-04-02 16:03:28] Données reçues brutes : {&amp;quot;accepted&amp;quot;:true,&amp;quot;consentData&amp;quot;:{&amp;quot;essential&amp;quot;:true,&amp;quot;analytics&amp;quot;:true,&amp;quot;marketing&amp;quot;:true,&amp;quot;timestamp&amp;quot;:&amp;quot;2025-04-02T16:03:28.537Z&amp;quot;}}
+[2025-04-02 16:03:28] Réponse envoyée : {&quot;success&quot;:true,&quot;message&quot;:&quot;Consentement enregistr\u00e9 avec succ\u00e8s&quot;,&quot;insertedId&quot;:&quot;1&quot;}

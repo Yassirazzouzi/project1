@@ -1,0 +1,26 @@
+[2025-04-02 16:08:15] Erreur d'inscription
+Détails de l'inscription:
+  - message: Email invalide
+  - trace: #0 {main}
+Informations supplémentaires:
+  - Adresse IP: ::1
+  - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0
+---
+[2025-04-02 16:17:35] Erreur d'inscription
+Détails de l'inscription:
+  - message: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ecommerce_db`.`customers`, CONSTRAINT `customers_ibfk_1` FOREIGN KEY (`current_plan_id`) REFERENCES `plans` (`id`))
+  - trace: #0 C:\Users\yassi\Documents\yassir\project1\assets\php\register.php(69): PDOStatement->execute(Array)
+#1 {main}
+Informations supplémentaires:
+  - Adresse IP: ::1
+  - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0
+---
+[2025-04-02 16:17:58] Erreur d'inscription
+Détails de l'inscription:
+  - message: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ecommerce_db`.`customers`, CONSTRAINT `customers_ibfk_1` FOREIGN KEY (`current_plan_id`) REFERENCES `plans` (`id`))
+  - trace: #0 C:\Users\yassi\Documents\yassir\project1\assets\php\register.php(69): PDOStatement->execute(Array)
+#1 {main}
+Informations supplémentaires:
+  - Adresse IP: ::1
+  - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0
+---
