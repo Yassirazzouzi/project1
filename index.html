@@ -32,19 +32,19 @@
 </head>
 
 <body class="index-page">
-  <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: transparent; transition: all 0.5s;">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-         <img src="assets/img/yass/logo3.png" alt="">
+         <img src="assets/img/yass/logo3.png" alt="" style="max-height: 50px;">
       </a>
       <nav id="navmenu" class="navmenu">
-        <ul>
+        <ul style="color: white;">
           <div class="gtranslate_wrapper"></div>
-          <li><a href="#about">About</a></li>
-          <li><a href="#pricing">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" style="color: white;">About</a></li>
+          <li><a href="#pricing" style="color: white;">Services</a></li>
+          <li><a href="#contact" style="color: white;">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list" style="color: white;"></i>
       </nav>
       <button class="btn-getstarted" onclick="window.location.href='payment.html?plan=standard&price=19.9&duration=month'" style="background-color: red;border: none">Subscription</button>
     </div>
@@ -76,30 +76,28 @@
 </div>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <section id="hero" class="hero section" style="background-image: url('assets/img/yass/slid5.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative; color: white;">
+      <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);"></div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100" style="position: relative; z-index: 1;">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
               <span class="hero-subtitle">Premium IPTV Service</span>
-              <h1>
+              <h1 style="color: white;">
                 Experience Ultimate
                 <span class="accent-text">Entertainment</span>
                 Without Limits
               </h1>
-              <p>
+              <p style="color: white;">
                 Access over 24,000 channels and 90,000+ <br>  movies & series in stunning 4K quality.  
                 Enjoy buffer-free streaming with our ultra-stable servers, compatible with all your devices.
               </p>
+              
               <div class="hero-buttons">
                 <a href="#pricing" class="btn btn-primary">Start Now</a>
                 <a href="#features" class="btn btn-outline">Discover More</a>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/yass/slid5.jpeg" alt="Premium IPTV Experience" class="img-fluid">
+              
             </div>
           </div>
         </div>
@@ -236,7 +234,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section" style="background-color: #151515; color: white;">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -244,9 +242,9 @@
 
           <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
             <span class="about-meta" style="color: red">MORE ABOUT US</span>
-            <h2 class="about-title">  The best features of Watch TV</h2>
-            <p class="about-description">Unlock 24k+ high-quality 4K live TV channels with our service. Experience it firsthand with a free trial get it now!</p>
-            <p class="about-description">its Easy to get your subscription – just place your order, make the payment, and you're done! Receive your subscription instantly.
+            <h2 class="about-title" style="color: white;">The best features of Watch TV</h2>
+            <p class="about-description" style="color: #d9d9d9;">Unlock 24k+ high-quality 4K live TV channels with our service. Experience it firsthand with a free trial get it now!</p>
+            <p class="about-description" style="color: #d9d9d9;">its Easy to get your subscription – just place your order, make the payment, and you're done! Receive your subscription instantly.
 
             </p>
             <div class="info-wrapper">
@@ -918,9 +916,29 @@
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/js/cokies.js"></script>
 
-  
-
-
+  <script>
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('header');
+      const navLinks = document.querySelectorAll('#navmenu ul li a');
+      const mobileToggle = document.querySelector('.mobile-nav-toggle');
+      
+      if (window.scrollY > 100) {
+        header.style.backgroundColor = 'white';
+        header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+        navLinks.forEach(link => {
+          link.style.color = '#333';
+        });
+        mobileToggle.style.color = '#333';
+      } else {
+        header.style.backgroundColor = 'transparent';
+        header.style.boxShadow = 'none';
+        navLinks.forEach(link => {
+          link.style.color = 'white';
+        });
+        mobileToggle.style.color = 'white';
+      }
+    });
+  </script>
 
   <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"wrapper_selector":".gtranslate_wrapper"}</script>
   <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
